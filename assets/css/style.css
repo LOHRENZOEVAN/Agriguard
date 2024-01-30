@@ -108,15 +108,9 @@ h6 {
   color: #5cb874;
 }
 
-/* An experienced software developer with over 2 years building frontend interfaces for web and mobile apps 
-  <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
-            <h3>Climate change and its effect on food production.</h3>
-            <p class="fst-italic">
-              Rural farmers often face financial risks due to unpredictable weather conditions, making it challenging for them to secure their production cycles. Accessing insurance services that cater to disaster risk reduction are almost totally absent
-            </p>
-
-          </div>
-*/
+.cop28 {
+  display: none
+}
 
 /*--------------------------------------------------------------
 # Header
@@ -272,6 +266,10 @@ h6 {
   visibility: visible;
 }
 
+.carousel-description {
+  width: 50%;
+}
+
 @media (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
     left: -90%;
@@ -400,6 +398,10 @@ h6 {
   background-color: rgba(9, 9, 9, 0.8);
   overflow: hidden;
   position: relative;
+}
+
+.carousel-descritpion {
+  width: 50%;
 }
 
 #hero .carousel,
@@ -541,6 +543,11 @@ h6 {
 @media (max-width: 768px) {
   #hero h2 {
     font-size: 28px;
+  }
+
+  .cop28 {
+    display: flex;
+    border-bottom: 1px solid #5cb874;
   }
 }
 
@@ -724,6 +731,14 @@ section {
 @media (max-width: 768px) {
   .why-us .content-item {
     padding: 40px 0;
+  }
+
+  .carousel-description {
+    width: 75%;
+  }
+
+  #topbar {
+    display: none !important;
   }
 }
 
